@@ -1,0 +1,26 @@
+/* Definimos nuestros colores principales usando variables */
+:root {
+    --color-primario: #007bff; /* Un azul brillante para elementos principales */
+    --color-secundario: #6c757d; /* Un gris para texto secundario o bordes */
+    --color-fondo: #f8f9fa; /* Un gris muy claro para el fondo */
+    --color-texto: #343a40; /* Un gris oscuro para el texto general */
+    }
+   /* Aplicamos un color de fondo a toda la página */
+body {
+    font-family: sans-serif; /* Cambiamos la fuente a una más común */
+    background-color: var(--color-fondo); /* Usamos nuestra variable para el color de fondo
+   */
+    color: var(--color-texto); /* Usamos nuestra variable para el color del texto */
+    margin: 0; /* Quitamos el margen predeterminado del body */
+    padding: 0; /* Quitamos el padding predeterminado del body */
+    }
+   /* Estilo para los encabezados principales */
+    h1, h2, h3 {
+    color: var(--color-primario); /* Los títulos usarán nuestro color primario */
+    }
+   /* Estilo para los párrafos */
+p {
+    line-height: 1.6; /* Aumenta el espacio entre líneas para mejor lectura */
+    }
+
+    
